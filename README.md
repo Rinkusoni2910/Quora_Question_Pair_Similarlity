@@ -10,29 +10,33 @@ Number of rows in Train.csv = 404,290
 
 # Tasks to perform:
 > Import the General libraries, NLP module, and Machine learning modules
+
 > Load the dataset
-> Text Preprocessing:
-> Removing html tags
-> Removing Punctuations
-> Performing stemming
-> Removing Stop words
-> Expanding contractions etc.
-> Apply Tokenization
-> Apply Stemming
-> Apply Lemmatization
-> Apply label encoding 
+
+> Text Preprocessing: Removing html tags, Removing Punctuations, Performing stemming, Removing Stop words, Expanding contractions etc.
+
+> Apply Tokenization, Stemming, Lemmatization
+
 > Feature Extraction
-> Text to Numerical vector conversion
+
+> Text to Numerical vector conversion:
   > Apply BOW
   > Apply TFIDF vectorizer
   > Apply Word2Vector vectorizer
   > Apply Glove
+
 > Data preprocessing
+
 > Model Building
+
 > Evaluate the model
+
 > Confusion Matrix
+
 > Classification report
+
 > Track your experiments with the help of MLFlow
+
 > Break your code into production ready script
 
 # Streamlit App link: https://newquoradq.herokuapp.com/
